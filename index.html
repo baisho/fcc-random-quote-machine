@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="machine">
+        <h1>Random Quote Machine</h1>
+        <button id="getQuote" class="btn btn-primary">Get a quote</button>
+        <h3 id="quoteHere">Here's your quote.</h3>
+        <!-- Twitter button -->
+        <div class="twitterButton">
+            <ul class="content__contact__social-media">
+                <li onclick="tweetIt()" class="fa-stack fa-lg" title="Tweet it!">
+                    <i class="fa fa-circle fa-stack-2x content__contact__social-media-item-button__twitter"></i>
+                    <i class="fa fa-circle-thin fa-stack-2x icon-background1"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="p-footer">Coded by
+            <a href="https://github.com/baisho" target="_blank">Bánk Horváth</a>.
+        </p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
